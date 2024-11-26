@@ -154,12 +154,15 @@ h1 + p {
     font-size: 1.8rem;
     font-weight: 700;
   }
-
+#linea{
+  display: none;
+}
 }
 
 @media screen and (min-width: 500px) {
   h1 {
     font-size: 3rem;
+    position: relative;
   }
 
   p,
@@ -174,13 +177,21 @@ h1 + p {
   }
   #linea {
     position: absolute;
-    top: 0.5px;
+  right: 100px;
+  top: 105px;
+  width: 80%;
   }
 }
 
 @media screen and (min-width: 700px) {
   h1 {
     font-size: 3.6rem;
+  }
+  #linea {
+    position: absolute;
+  right: 100px;
+  top: 140px;
+  width: 80%;
   }
 }
 
@@ -196,6 +207,12 @@ h1 + p {
     bottom: 150px;
     left: 20px;
     box-shadow: 2px 2px  1px gray;
+  }
+  #linea {
+    position: absolute;
+  right: 100px;
+  top: 65px;
+  width: 47%;
   }
 }
 
